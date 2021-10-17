@@ -13,8 +13,116 @@ html {
   font-family: "Karla", sans-serif;
 }
 
+body {
+  background-color: #e5eff5;
+}
+
 .container {
   height: auto;
   width: 100%;
+  background-color: #e5eff5;
+}
+
+.content {
+  height: 100vh;
+  width: 85%;
+  margin: 8rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+}
+
+.content__upper {
+  background-color: white;
+  border-radius: 0.5rem 0.5rem 0 0;
+  -webkit-box-flex: calc(33.3333% + 1.66665%);
+      -ms-flex: calc(33.3333% + 1.66665%);
+          flex: calc(33.3333% + 1.66665%);
+}
+
+.content__upper__heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2ab2af;
+  display: -ms-grid;
+  display: grid;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  grid-gap: 2rem;
+}
+
+.content__upper__heading span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #c0df34;
+}
+
+.content__upper__paragraph {
+  width: 85%;
+  margin: 0 auto;
+  color: #98a6bd;
+  font-size: 1.4rem;
+  padding-top: 2rem;
+  line-height: 2.5rem;
+}
+
+.content__middle {
+  background-color: #2ab2af;
+  -webkit-box-flex: calc(33.3333% - 1.66665%);
+      -ms-flex: calc(33.3333% - 1.66665%);
+          flex: calc(33.3333% - 1.66665%);
+}
+
+.content__middle__heading {
+  width: 85%;
+  margin: 0 auto;
+  color: #e5eff5;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+
+.content__middle__price {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content__middle__price span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #c1d7e6;
+  padding-left: 1rem;
+}
+
+.content__middle__paragraph {
+  width: 85%;
+  margin: 0 auto;
+  color: #e5eff5;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.content__lower {
+  background-color: #3dd1cf;
+  border-radius: 0 0 0.5rem 0.5rem;
+  -webkit-box-flex: calc(33.3333% + 1.66665%);
+      -ms-flex: calc(33.3333% + 1.66665%);
+          flex: calc(33.3333% + 1.66665%);
 }
 /*# sourceMappingURL=style.css.map */
